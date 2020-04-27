@@ -20,7 +20,7 @@ namespace JobApplicationPoster.Models
         public string CompanyName { get; set; }
 
         [Display(Name = "Job Title")]
-        [Required(ErrorMessage = "Please enter the Job title.")]
+        [Required(ErrorMessage = "Please enter the job title.")]
         public string JobTitle { get; set; }
 
         [Required(ErrorMessage = "Please enter the job location.")] 
